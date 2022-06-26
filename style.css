@@ -16,11 +16,10 @@ FONT SIZE SYSTEM (px)
   --clr-green-400: #087f5b;
   --clr-green-300: #099268;
 
-  --clr-gray-400: #ced4da;
-  --clr-gray-200: #495057;
-  --clr-gray-300: #868e96;
-
-  --clr-gray-100: #343a40;
+  --clr-gray-100: #ced4da;
+  --clr-gray-300: #495057;
+  --clr-gray-200: #868e96;
+  --clr-gray-400: #343a40;
 }
 
 * {
@@ -38,7 +37,8 @@ body {
 
 .carousel {
   width: 800px;
-  background-color: #087f5b;
+  /* background-color: #087f5b; */
+  background-color: var(--clr-green-400);
   margin: 100px auto;
   border-radius: 8px;
   /* padding: 32px;
@@ -61,24 +61,28 @@ img {
   font-weight: 500;
   line-height: 1.5;
   margin-bottom: 32px;
-  color: #e6fcf5;
+  /* color: #e6fcf5; */
+  color: var(--clr-green-100);
 }
 
 .testimonial-author {
   font-size: 14px;
   margin-bottom: 4px;
-  color: #c3fae8;
+  /* color: #c3fae8; */
+  color: var(--clr-green-200);
 }
 
 .testimonial-job {
   font-size: 12px;
-  color: #c3fae8;
+  /* color: #c3fae8; */
+  color: var(--clr-green-200);
 }
 
 /* CONTROL */
 
 .btn {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: var(--clr-white-100);
   border: none;
   height: 40px;
   width: 40px;
@@ -94,7 +98,8 @@ img {
 .btn-icons {
   width: 24px;
   height: 24px;
-  stroke: #087f5b;
+  /* stroke: #087f5b; */
+  stroke: var(--clr-green-400);
 }
 
 .btn--left {
@@ -121,12 +126,14 @@ img {
 .dot {
   width: 12px;
   height: 12px;
-  background-color: #fff;
-  border: 2px solid #087f5b;
+  /* background-color: #fff; */
+  background-color: var(--clr-white-100);
+  border: 2px solid var(--clr-green-400);
   border-radius: 50%;
   cursor: pointer;
 }
 
 .dot--fill {
   background-color: #087f5b;
+  background-color: var(--clr-green-400);
 }
